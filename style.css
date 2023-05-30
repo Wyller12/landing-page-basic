@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: url(./background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #0008;
+    background-blend-mode: darken;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    
+}
+main{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: clamp(2.5rem, 8vw, 6.5rem);
+    color: white;
+    font-weight: 400;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    color: white;
+    font-size: clamp(1.2rem,4vw,3rem);
+}
+input{
+    background-color: #FAE12C;
+    width: 200px;
+    height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 20px;
+}
